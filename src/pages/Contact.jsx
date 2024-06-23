@@ -62,7 +62,7 @@ function Contact() {
 								<Form.Control type='textarea' id='comments' />
 							</Form.Group>
 
-							<button type='submit' className='btn btn-success btn-lg'>
+							<button type='submit' className='bb-submit'>
 								Подтвердить
 							</button>
 						</Form>

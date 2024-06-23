@@ -3,12 +3,17 @@
 }
 
 header {
+  display: flex;
+  align-items: center;
+  color: #fff;
   background-size: cover;
   background-position: center;
+  height: 100%;
+  box-shadow: 0px 15px 14px rgba(144, 144, 144, 0.3);
 }
 
 header h1 {
-  font-size: 5rem;
+  font-size: 80px;
 }
 
 .home-page header h1,
@@ -29,12 +34,36 @@ img {
 
 @media only screen and (max-width: 768px) {
   header h1 {
-    font-size: 4rem;
+    font-size: 64px;
   }
 }
 
 @media only screen and (max-width: 576px) {
   header h1 {
-    font-size: 3rem;
+    font-size: 48px;
   }
+}
+
+.bb-more-about-us {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid rgb(250, 129, 40);
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 16px;
+  color: rgb(250, 129, 40);
+  transition: color, background-color 0.4s ease;
+  background-color: transparent;
+}
+
+.bb-more-about-us:hover {
+  color: #fff;
+  background-color: rgb(250, 129, 40);
+  border-color: rgb(250, 129, 40);
+}
+
+.price {
+  color: rgb(250, 129, 40);
+  font-weight: 500;
 }

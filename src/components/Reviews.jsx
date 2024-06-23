@@ -22,9 +22,9 @@ export function Reviews() {
 						<CardBody>
 							<div className='p-4'>
 								<CardText>
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam
-									neque dolore tempora libero labore deleniti nemo perspiciatis
-									tempore nesciunt quasi.
+									Внутри всё чисто, красиво и стильно. Есть гардероб. Персонал
+									вежливый, доброжелательный. Еда очень вкусная, порции
+									приличные, цены приемлимые.
 								</CardText>
 							</div>
 						</CardBody>
@@ -34,7 +34,7 @@ export function Reviews() {
 								className='img-fluid rounded-circle mx-3 shadow'
 								alt=''
 							/>
-							<CardTitle className='text-success'>Name1</CardTitle>
+							<CardTitle className='text-success'>Анастасия</CardTitle>
 						</CardFooter>
 					</Card>
 				</div>
@@ -44,9 +44,11 @@ export function Reviews() {
 						<CardBody>
 							<div className='p-4'>
 								<CardText>
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-									Ratione maxime quaerat consequuntur rem porro quisquam, natus
-									molestiae alias? Sed, assumenda.
+									Отмечали День Рождение, безумно красивый интерьер, всё было
+									очень вкусно и быстро приготовлено, хочется отметить просто
+									замечательное обслуживание, супер приветливый персонал! Даже
+									за случайно принесенное не то блюдо и быстро переделанное,
+									принесли десерт в подарок.
 								</CardText>
 							</div>
 						</CardBody>
@@ -56,7 +58,7 @@ export function Reviews() {
 								className='img-fluid rounded-circle mx-3 shadow'
 								alt=''
 							/>
-							<CardTitle className='text-success'>Name2</CardTitle>
+							<CardTitle className='text-success'>Игорь</CardTitle>
 						</CardFooter>
 					</Card>
 				</div>
@@ -66,9 +68,10 @@ export function Reviews() {
 						<CardBody>
 							<div className='p-4'>
 								<CardText>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
-									facilis itaque neque inventore, illo molestias obcaecati
-									dolore dicta exercitationem fugiat.
+									Вкусно. Обслуживание отличное. Произошла небольшая неприятная
+									ситуация, но персонал прекрасно из нее вышел. Так как нужно.
+									Без конфликта, а с достоинством и с уважением к своему гостю.
+									Даже не смотря на то, что произошло, приду ещё.
 								</CardText>
 							</div>
 						</CardBody>
@@ -78,7 +81,7 @@ export function Reviews() {
 								className='img-fluid rounded-circle mx-3 shadow'
 								alt=''
 							/>
-							<CardTitle className='text-success'>Name3</CardTitle>
+							<CardTitle className='text-success'>Владислав</CardTitle>
 						</CardFooter>
 					</Card>
 				</div>
@@ -88,9 +91,10 @@ export function Reviews() {
 						<CardBody>
 							<div className='p-4'>
 								<CardText>
-									Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-									Dignissimos quam deleniti veniam reiciendis repudiandae
-									cupiditate fugiat eos possimus facere soluta.
+									Были приятно удивлены вкусной едой и хорошим сервисом. По
+									началу смутило расположение, и поэтому были скептически
+									настроены, но все было здорово. Меню оказалось очень
+									интересным, что бывает не часто.
 								</CardText>
 							</div>
 						</CardBody>
@@ -100,7 +104,7 @@ export function Reviews() {
 								className='img-fluid rounded-circle mx-3 shadow'
 								alt=''
 							/>
-							<CardTitle className='text-success'>Name4</CardTitle>
+							<CardTitle className='text-success'>Екатерина</CardTitle>
 						</CardFooter>
 					</Card>
 				</div>

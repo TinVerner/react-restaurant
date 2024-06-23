@@ -1,11 +1,10 @@
-import React from 'react'
-import { MenuBtn } from '../components/MenuBtn'
 import './Home.css'
-import AboutImg from '../utils/img/about-img.jpg'
+import { MenuBtn } from '../components/MenuBtn'
 import { Link } from 'react-router-dom'
 import { ImageGallery } from '../components/ImageGallery'
 import { ContactInfo } from '../components/ContactInfo'
 import ContactImage from '../utils/img/contact-img.jpg'
+import AboutImg from '../utils/img/about-img.jpg'
 
 function Home() {
 	return (
@@ -16,7 +15,7 @@ function Home() {
 						<div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
 							<h2 className='mb-0 text-black fw-bold'>Добро пожаловать в</h2>
 							<h1 className='mb-5 text-black fw-bold text-center text-sm-start'>
-								Kaori Mau Restaurant
+								Kaori Mau
 							</h1>
 							<MenuBtn />
 						</div>
@@ -43,7 +42,7 @@ function Home() {
 							Porro alias hic ea? Quasi!
 						</p>
 						<Link to='/about'>
-							<button type='button' className='btn btn-outline-success btn-lg'>
+							<button type='button' className='bb-more-about-us'>
 								Подробнее о нас
 							</button>
 						</Link>
@@ -52,22 +51,22 @@ function Home() {
 			</div>
 			<div className='menu-section py-5 text-light shadow'>
 				<div className='container d-flex flex-column align-items-center'>
-					<h2 className='fs-1 mb-5 text-uppercase fw-bold'>Our Favorites</h2>
+					<h2 className='fs-1 mb-5 text-uppercase fw-bold'>Популярные блюда</h2>
 					<div className='row mb-5 w-100'>
 						<div className='col-lg-6 d-flex flex-column align-items-center mb-5 mb-lg-0'>
 							<h3 className='fs-2 mb-5'>Еда</h3>
 							<ul className='px-0'>
 								<li className='d-flex justify-content-between'>
-									<p className='fs-3 mx-2'>Dish 1</p>
-									<p className='fs-3 mx-2 text-success fw-nold'>12 BYN</p>
+									<p className='fs-3 mx-2'>Цезарь с куриным филе</p>
+									<p className='price fs-3 mx-2'>15 BYN</p>
 								</li>
 								<li className='d-flex justify-content-between'>
-									<p className='fs-3 mx-2'>Dish 2</p>
-									<p className='fs-3 mx-2 text-success fw-nold'>15 BYN</p>
+									<p className='fs-3 mx-2'>Паста "Карбонара"</p>
+									<p className='price fs-3 mx-2'>16 BYN</p>
 								</li>
 								<li className='d-flex justify-content-between'>
-									<p className='fs-3 mx-2'>Dish 3</p>
-									<p className='fs-3 mx-2 text-success fw-nold'>18 BYN</p>
+									<p className='fs-3 mx-2'>Стейк из сёмги</p>
+									<p className='price fs-3 mx-2'>28 BYN</p>
 								</li>
 							</ul>
 						</div>
@@ -76,16 +75,16 @@ function Home() {
 							<h3 className='fs-2 mb-5'>Напитки</h3>
 							<ul className='px-0'>
 								<li className='d-flex justify-content-between'>
-									<p className='fs-3 mx-2'>Drink 1</p>
-									<p className='fs-3 mx-2 text-success fw-nold'>5 BYN</p>
+									<p className='fs-3 mx-2'>Цитрусовый лимонад</p>
+									<p className='price fs-3 mx-2'>5 BYN</p>
 								</li>
 								<li className='d-flex justify-content-between'>
-									<p className='fs-3 mx-2'>Drink 2</p>
-									<p className='fs-3 mx-2 text-success fw-nold'>7 BYN</p>
+									<p className='fs-3 mx-2'>Коктейль "Голубая Лагуна"</p>
+									<p className='price fs-3 mx-2'>9 BYN</p>
 								</li>
 								<li className='d-flex justify-content-between'>
-									<p className='fs-3 mx-2'>Drink 3</p>
-									<p className='fs-3 mx-2 text-success fw-nold'>4 BYN</p>
+									<p className='fs-3 mx-2'>Имбирный чай</p>
+									<p className='price fs-3 mx-2'>7 BYN</p>
 								</li>
 							</ul>
 						</div>

@@ -1,0 +1,18 @@
+.bb {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid rgb(250, 129, 40);
+  padding: 10px 16px;
+  font-size: 20px;
+  border-radius: 16px;
+  color: rgb(250, 129, 40);
+  transition: color, background-color 0.4s ease;
+  background-color: transparent;
+}
+
+.bb:hover {
+  color: #fff;
+  background-color: rgb(250, 129, 40);
+  border-color: rgb(250, 129, 40);
+}
