@@ -46,10 +46,10 @@ export default function App() {
 			<footer className='text-center'>
 				<div className='container'>
 					<div className='row'>
-						<div className='col-md-4'>
+						<div className='col-md-6'>
 							<ul className='footer-list fw-bold'>
 								<h1 className='fw-bold'>Компания</h1>
-								<li>
+								<li text-left>
 									<a href='https://yandex.ru/maps/157/minsk/?ll=27.551120%2C53.892004&mode=poi&poi%5Bpoint%5D=27.550970%2C53.891949&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D195002189457&z=21'>
 										Адрес: ул. Кирова 1, Минск, Беларусь
 									</a>
@@ -64,23 +64,25 @@ export default function App() {
 								</li>
 							</ul>
 						</div>
-						<div className='col-md-4'>
+						<div className='col-md-6'>
 							<ul className='footer-list'>
-								<li>Ссылка 4</li>
-								<li>Ссылка 5</li>
-								<li>Ссылка 6</li>
-							</ul>
-						</div>
-						<div className='col-md-4'>
-							<ul className='footer-list'>
-								<li>Ссылка 7</li>
-								<li>Ссылка 8</li>
-								<li>Ссылка 9</li>
+								<h1 className='fw-bold'>Соц.сети</h1>
+								<li>
+									<a href='https://www.facebook.com/?locale2=ru_RU&_rdr'>
+										Facebook
+									</a>
+								</li>
+								<li>
+									<a href='https://www.instagram.com/'>Instagram</a>
+								</li>
+								<li>
+									<a href='https://github.com/TinVerner'>GitHub</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<p className='p-3 m-0 text-center'>© made by Tin Verner</p>
+				<p className='p-3 m-0 text-center'>© Kaori Mau. Все права защищены.</p>
 			</footer>
 		</div>
 	)

@@ -9,84 +9,84 @@ import DessertImg from '../utils/img/dessert.jpg'
 const breakfast = [
 	{
 		id: 1,
-		name: 'English Breakfast',
-		desc: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-		price: '20 BYN',
+		name: 'Английский завтрак',
+		desc: 'колбаски, бекон, яйца, багет, томаты, шампиньоны, фасоль',
+		price: '19 BYN',
 	},
 	{
 		id: 2,
-		name: 'Avocado Toast',
-		desc: 'avocado, poached egg, onion, tomatoes, bread',
-		price: '10 BYN',
+		name: 'Шотландский завтрак с форелью',
+		desc: 'салат "Айсберг", огурец, томат, авокадо, яйца, форель, багет, зелень',
+		price: '23 BYN',
 	},
 	{
 		id: 3,
-		name: 'Burrito',
-		desc: 'tortilla, egg, cheese, potatoes, pork meat',
-		price: '15 BYN',
+		name: 'Французский завтрак с яйцом пашот',
+		desc: 'круассан, яйца пашот, голландский соус, бекон, томат, твёрдый сыр, салат "Айсбрег", огурец, зелень',
+		price: '19 BYN',
 	},
 ]
 
 const lunch = [
 	{
 		id: 1,
-		name: 'Салат',
-		desc: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-		price: '20 BYN',
+		name: 'Греческий салат',
+		desc: 'салат "Айсберг", томат, огурец, перец болгарский, сыр "Фета", соус "Песто", маслины, заправка',
+		price: '14 BYN',
 	},
 	{
 		id: 2,
-		name: 'Спагетти',
-		desc: 'avocado, poached egg, onion, tomatoes, bread',
-		price: '10 BYN',
+		name: 'Картофельный крем-суп с беконом',
+		desc: 'картофель, бекон, зелень, сливочное масло, лук репчатый, сливки',
+		price: '16 BYN',
 	},
 	{
 		id: 3,
-		name: 'Роллы',
-		desc: 'tortilla, egg, cheese, potatoes, pork meat',
-		price: '15 BYN',
+		name: 'Куриное филе с беконом и овощами',
+		desc: 'куриное филе, бекон, картофельное крем-пюре, лук, шампиньоны, перец, соус "Терияки", зелень',
+		price: '22 BYN',
 	},
 ]
 
 const dinner = [
 	{
 		id: 1,
-		name: 'Beef',
-		desc: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-		price: '20 BYN',
+		name: 'Стейк из сёмги с сыром и зеленью',
+		desc: 'сёмга, салат, авокадо, сыр "Моцарелла", соус "Песто", кунжут, хлеб, зелень',
+		price: '28 BYN',
 	},
 	{
 		id: 2,
-		name: 'спагетти болонезе',
-		desc: 'avocado, poached egg, onion, tomatoes, bread',
-		price: '10 BYN',
+		name: 'Говяжья вырезка "Терияки" с пюре',
+		desc: 'говядина п/ф, пюре, перец болгарский, стручковая фасоль, шампиньоны, соус "Терияки", зелень',
+		price: '25 BYN',
 	},
 	{
 		id: 3,
-		name: 'Карри',
-		desc: 'tortilla, egg, cheese, potatoes, pork meat',
-		price: '15 BYN',
+		name: 'Куриное филе "Сезам"',
+		desc: 'куриное филе, перец болгарский, кунжутное масло, соус "Терияки", шампиньоны, стручковая фасоль, лимон, зелень, кунжут',
+		price: '22 BYN',
 	},
 ]
 
 const dessert = [
 	{
 		id: 1,
-		name: 'Десерт 1',
-		desc: 'smoked bacon, sausage, tomato, mushrooms, black pudding, baked beans, eggs',
-		price: '20 BYN',
-	},
-	{
-		id: 2,
-		name: 'Десерт 2',
-		desc: 'avocado, poached egg, onion, tomatoes, bread',
+		name: 'Панкейки с солёной карамелью',
+		desc: 'панкейки, карамель, мороженое, сникерс, попкорн',
 		price: '10 BYN',
 	},
 	{
+		id: 2,
+		name: 'Панкейки с шоколадом и орехами',
+		desc: 'панкейки, ореховая паста, заварной крем, шоколадбный топинг',
+		price: '12 BYN',
+	},
+	{
 		id: 3,
-		name: 'Десерт 3',
-		desc: 'tortilla, egg, cheese, potatoes, pork meat',
-		price: '15 BYN',
+		name: 'Панкейки с бананом и клубникой',
+		desc: 'панкейки, заварной крем, банан, клубника, шоколадный топинг,мороженое',
+		price: '11 BYN',
 	},
 ]
 
@@ -101,9 +101,7 @@ function Menu() {
 
 			<div className='breakfast my-5'>
 				<div className='container'>
-					<h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>
-						Breakfast
-					</h2>
+					<h2 className='text mb-lg-5 text-uppercase fw-bold'>Завтраки</h2>
 					<div className='row flex-column-reverse flex-lg-row'>
 						<div className='col-lg-6 d-flex justify-content-center'>
 							<img
@@ -123,7 +121,7 @@ function Menu() {
 											<CardText className='text-center fs-5'>
 												{breakfast.desc}
 											</CardText>
-											<CardText className='text-center fs-3 text-success'>
+											<CardText className='text fs-3'>
 												{breakfast.price}
 											</CardText>
 										</CardBody>
@@ -137,8 +135,8 @@ function Menu() {
 
 			<div className='lunch py-5 bg-dark'>
 				<div className='container'>
-					<h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>
-						Lunch
+					<h2 className='text fs-1 mb-4 mb-lg-5 text-uppercase fw-bold'>
+						Обеды
 					</h2>
 					<div className='row'>
 						<div className='col-lg-6 d-flex flex-column justify-content-around'>
@@ -152,9 +150,7 @@ function Menu() {
 											<CardText className='text-center fs-5'>
 												{lunch.desc}
 											</CardText>
-											<CardText className='text-center fs-3 fw-bold text-success'>
-												{lunch.price}
-											</CardText>
+											<CardText className='text fs-3'>{lunch.price}</CardText>
 										</CardBody>
 									</Card>
 								</div>
@@ -173,8 +169,8 @@ function Menu() {
 
 			<div className='dinner my-5'>
 				<div className='container'>
-					<h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>
-						Dinner
+					<h2 className='text fs-1 mb-4 mb-lg-5 text-uppercase fw-bold'>
+						Ужины
 					</h2>
 					<div className='row flex-column-reverse flex-lg-row'>
 						<div className='col-lg-6 d-flex justify-content-center'>
@@ -195,9 +191,7 @@ function Menu() {
 											<CardText className='text-center fs-5'>
 												{dinner.desc}
 											</CardText>
-											<CardText className='text-center fs-3 text-success'>
-												{dinner.price}
-											</CardText>
+											<CardText className='text fs-3'>{dinner.price}</CardText>
 										</CardBody>
 									</Card>
 								</div>
@@ -209,9 +203,7 @@ function Menu() {
 
 			<div className='dessert py-5 bg-dark'>
 				<div className='container'>
-					<h2 className='text-center fs-1 mb-4 mb-lg-5 text-uppercase fw-bold text-success'>
-						Dessert
-					</h2>
+					<h2 className='text fs-1 mb-4 mb-lg-5'>Десерты</h2>
 					<div className='row'>
 						<div className='col-lg-6 d-flex flex-column justify-content-around'>
 							{dessert.map(dessert => (
@@ -224,9 +216,7 @@ function Menu() {
 											<CardText className='text-center fs-5'>
 												{dessert.desc}
 											</CardText>
-											<CardText className='text-center fs-3 fw-bold text-success'>
-												{dessert.price}
-											</CardText>
+											<CardText className='text fs-3'>{dessert.price}</CardText>
 										</CardBody>
 									</Card>
 								</div>
